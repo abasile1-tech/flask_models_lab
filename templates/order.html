@@ -14,15 +14,12 @@
 			<th>Quantity</th> 
 			<th>Item</th> 
 		</tr>
-		
-		{% for order in order_list  %}
 			<tr>
-				<td><a href="http://127.0.0.1:4999/orders/{{order.id}}">{{order.customer_name}}</a></td>
+				<td>{{order.customer_name}}</td>
 				<td>{{order.order_date}}</td>
 				<td>{{order.quantity}} </td>
 				<td>{{order.item}}</td>
 			</tr>
-		{% endfor %}
 	</table>
 	
 </body>
