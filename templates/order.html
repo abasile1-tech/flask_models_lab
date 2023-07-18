@@ -14,15 +14,17 @@
 			<th>Order Date</th> 
 			<th>Quantity</th> 
 			<th>Item</th> 
+			<th>Description</th>
 		</tr>
 			<tr>
 				<td>{{order.customer_name}}</td>
 				<td>{{order.order_date}}</td>
 				<td>{{order.quantity}} </td>
 				<td>{{order.item}}</td>
+				<td>{{order.description}}</td>
 			</tr>
 	</table>
-	<a href="http://127.0.0.1:4999/orders">Return To Orders</a>
+	<a href="http://127.0.0.1:4999/orders" id = "returnLink">Return To Orders</a>
 	
 </body>
 </html>
